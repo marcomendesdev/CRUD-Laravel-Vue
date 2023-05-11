@@ -4,7 +4,6 @@ import Dashboard from "@/components/Dashboard.vue";
 import Login from "@/components/Login.vue";
 import Register from "@/components/Register.vue";
 import FormAdd from "@/components/FormAdd.vue";
-import FormUpdate from "@/components/FormUpdate.vue";
 import Courses from "@/components/Courses.vue";
 import MyCourses from "@/components/MyCourses.vue";
 import { createRouter, createWebHistory } from "vue-router";
@@ -36,11 +35,6 @@ const routes = [
             path: "/formadd",
             name: "FormAdd",
             component: FormAdd,
-          },
-          {
-            path: "/formupdate/:id",
-            name: "FormUpdate",
-            component: FormUpdate,
           },
         ],
       },

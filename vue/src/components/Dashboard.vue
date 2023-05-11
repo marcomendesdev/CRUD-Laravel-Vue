@@ -15,6 +15,7 @@
       <v-list>
         <v-list-item to="/courses">Courses</v-list-item>
         <v-list-item to="/mycourses">My Courses</v-list-item>
+        <v-list-item to="/formAdd">Add Course</v-list-item>
         <v-list-item @click.prevent="logout">Log out</v-list-item>
       </v-list>
     </v-navigation-drawer>
